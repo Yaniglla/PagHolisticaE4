@@ -32,7 +32,6 @@ header {
   height: 60px;
 }
 
-.navbar,
 .navbar ul {
   display: flex;
   align-items: center;
@@ -52,7 +51,6 @@ header {
 #toggle-menu {
   display: none;
 }
-
 
 .navbar ul li a {
   background: linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
@@ -80,7 +78,6 @@ main {
   justify-content: center;
   font-weight: 300;
   width: 80%;
-  
 }
 
 .pag-info {
@@ -101,27 +98,26 @@ main {
 }
 
 .pag-info p {
-width: 70% 0;
-background: linear-gradient(to right, #fc00ff, #00dbde);
-font-size: 20px;
-color: transparent;
--webkit-background-clip: text;
+  width: 70% 0;
+  background: linear-gradient(to right, #fc00ff, #00dbde);
+  font-size: 20px;
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 .categories {
-display: flex;
-align-items: center;
-gap: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .category {
-border: none;
-padding: 10px 15px;
-border-radius: 10px;
-cursor: pointer;
-background-color: #8a2387;
-color: #fff0f5;
-
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #8a2387;
+  color: #fff0f5;
 }
 
 .img2 {
@@ -132,22 +128,166 @@ color: #fff0f5;
 }
 
 .text2-informativo h2 {
-text-align: center;
-background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
-color: transparent;
--webkit-background-clip: text;
+  text-align: center;
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 .text2-informativo p {
-text-align: center;
-vertical-align: middle;
-padding: 1em;
-width: 400px;
-border: 1px;
-background: linear-gradient(to right, #fc00ff, #00dbde);
-color: transparent;
--webkit-background-clip: text;
+  text-align: center;
+  vertical-align: middle;
+  padding: 1em;
+  width: 400px;
+  border: 1px;
+  background: linear-gradient(to right, #fc00ff, #00dbde);
+  color: transparent;
+  -webkit-background-clip: text;
+}
 
+#info {
+  padding: 70px 0;
+  max-width: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#info h2 {
+  text-align: center;
+  gap: 30px;
+  font-size: 25px;
+  font-weight: 800;
+  background: linear-gradient(to right, #fc00ff, #00dbde);
+  color: transparent;
+  -webkit-background-clip: text;
+  margin: 10%;
+}
+
+.info-cards-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 20px;
+  background: linear-gradient(to right, #fc00ff, #00dbde);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.info-card {
+  gap: 15px;
+  padding: 10px 45px 10px 10px;
+  font-weight: 300;
+  justify-content: left;
+  flex-wrap: wrap;
+  display: flex;
+  width: 300px;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  background: linear-gradient(to right, #fc00ff, #00dbde);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.img3 {
+  width: 80px;
+  height: 80px;
+}
+
+.img4 {
+  width: 80px;
+  height: 80px;
+}
+
+.img5 {
+  width: 80px;
+  height: 80px;
+}
+
+.info-card h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.info-card p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/*FOOTER*/
+
+.container-footer {
+  width: 100%;
+  padding: 30px 0;
+  background: #f7f7f7;
+  margin-top: 40px;
+  background-color: antiquewhite;
+}
+
+.container-footer footer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container-footer footer .logo-footer {
+  text-align: center;
+}
+
+.container-footer footer .logo-footer img {
+  width: 400px;
+}
+
+.container-footer footer .redes-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container-footer footer .redes-footer .icon-redes-footer {
+  font-size: 20px;
+  margin: 20px;
+  background: #efefef;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #a2a2a2a2;
+}
+
+footer .redes-footer .fa-facebook-f:hover {
+  background: #41579a;
+  color: #afff;
+}
+
+footer .redes-footer .fa-discord:hover {
+  background: rgb(35, 46, 61);
+  color: #afff;
+}
+
+footer .redes-footer .fa-instagram:hover {
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  color: #afff;
+}
+
+.container-footer footer hr {
+  margin-top: 20px;
+  border: none;
+  height: 2px;
+  background: #d8d8d87a;
+}
+
+.container-footer h4 {
+  text-align: center;
+  margin-top: 20px;
+  color: #8e8e8e;
+  font-weight: 500px;
 }
 
 @media (max-width: 992px) {
@@ -178,20 +318,41 @@ color: transparent;
   #pag {
     font-size: 15px;
   }
+}
 
-  
+/* info de p,h3,img */
+
+#info {
+  width: 70%;
+  padding: 7px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info-card p {
+  max-width: 60%;
+  text-align: center;
+}
+
+.info-card h2 {
+  background: linear-gradient(to right, #fc00ff, #00dbde);
+  color: transparent;
+  -webkit-background-clip: text;
+  align-items: center;
 }
 
 @media (max-width: 576px) {
   .navbar ul {
-    background-color:floralwhite;
+    background-color: rgb(255, 245, 226);
     width: 100%;
+    align-items: center;
+    flex-direction: column;
     height: calc(100vh - 80px);
-    position: absolute;
+    position: absolute; 
     top: 80px;
     left: 0;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
     transform: translateX(200%);
     transition: all 0.4s ease-out;
@@ -204,14 +365,15 @@ color: transparent;
   #toggle-menu:checked + .navbar-list {
     transform: translateX(0%);
     transition: all 0.4s ease-in;
+    font-size: x-small;
   }
 
   .pag-info p {
-    max-width: 100%;
-  } 
+    max-width: 40%;
+  }
 
   main {
-    background-color:bisque;
+    background-color: rgb(255, 244, 230);
   }
 
   .text2-informativo p {
@@ -219,7 +381,46 @@ color: transparent;
     width: 100%;
   }
 
+
+  #info {
+    flex-direction: column;
+    vertical-align: column;
+  }
+
+  .info-card {
+    flex-direction: column;
+    vertical-align: center;
   
+  }
 
+  .info-card h2 {
+    align-items: center;
+    max-width: 80%;
+    font-size: 6px;
+    /* display: block; */
+    text-align: center;
+  }
+
+  .info-cards-container {
+    display: block;
+  }
+
+
+
+  .container-footer footer .logo-footer img {
+    width: 80%;
+  }
+
+  /* .info-cards-container .img3  {
+  float: left;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  vertical-align: center;
+  width: 100%;
+} */
+
+  /* .info-redes {
+  justify-content: center;
+} */
 }
-
